@@ -37,19 +37,20 @@ int main()
     printf("12 hour time with am/pm: %s", MY_TIME);
     cout << endl;
 
-    struct tm* birthday; {
-        int tm_year = 1997;
-        int tm_mon = 07;
-        int tm_mday = 10;
-        int tm_hour = 8;
-        int tm_min = 53;
-        int tm_sec = 20;
-        int tm_isdst = false;
-    };
+    tm birthday;
+        birthday.tm_year = 1997 - 1900;
+        birthday.tm_mon = 06;
+        birthday.tm_mday = 10;
+        birthday.tm_hour = 8;
+        birthday.tm_min = 53;
+        birthday.tm_sec = 20;
+        birthday.tm_isdst = false;
     
-    /*time_t birth_time = mktime(birthday);
-    cout << ctime(&birth_time) << endl << "I was born " << birth_time << " seconds after epoch!" << endl;*/
-    //Throws an exception
+    time_t birth_time = mktime(&birthday);
+    cout << ctime(&birth_time) << endl << "I was born " << birth_time << " seconds after epoch!" << endl;
+
+    strftime(MY_TIME, sizeof(MY_TIME), "%A which was day %j of that year.",  &birthday);
+    printf("I was born on a %s", MY_TIME);
 
 }
 
