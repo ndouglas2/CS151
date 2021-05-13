@@ -1,0 +1,1 @@
+My code instead erases everything in the file. I ran out of time to try to solve why so this is the best that I could come up with.
