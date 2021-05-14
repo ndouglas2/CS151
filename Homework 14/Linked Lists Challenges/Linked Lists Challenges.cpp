@@ -55,7 +55,7 @@ int main()
     cout << "Is 7.0 in the list?" << endl;
     int position = list->search(7.0);
     if (position >= 0) {
-        cout << " Yes, and it is at index" << position<<endl;
+        cout << " Yes, and it is at index " << position<<endl;
     }
     else {
         cout << "No, it was not found."<<endl;
