@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Counter", "Word Counter\Word Counter.vcxproj", "{5898795C-57C7-4C5C-A745-AB68D82F1DA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Password Verifier", "Password Verifier\Password Verifier.vcxproj", "{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Debug|x64.ActiveCfg = Debug|x64
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Debug|x64.Build.0 = Debug|x64
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Debug|x86.ActiveCfg = Debug|Win32
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Debug|x86.Build.0 = Debug|Win32
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Release|x64.ActiveCfg = Release|x64
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Release|x64.Build.0 = Release|x64
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Release|x86.ActiveCfg = Release|Win32
+		{5898795C-57C7-4C5C-A745-AB68D82F1DA6}.Release|x86.Build.0 = Release|Win32
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Debug|x64.ActiveCfg = Debug|x64
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Debug|x64.Build.0 = Debug|x64
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Debug|x86.Build.0 = Debug|Win32
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Release|x64.ActiveCfg = Release|x64
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Release|x64.Build.0 = Release|x64
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Release|x86.ActiveCfg = Release|Win32
+		{4D2CC5B4-0E5B-4D4D-9A05-798F880B9D61}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A5DE4F4-ECC3-4C27-BBCC-0334CB2C1C68}
+	EndGlobalSection
+EndGlobal

@@ -15,6 +15,7 @@ public:
 	void print();
 	void change(const char*);
 	EString(const EString&);
+	int getSize();
 	EString& operator=(const EString&);
 	friend ostream& operator<<(ostream &, const EString &);
 	EString operator++();
